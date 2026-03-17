@@ -31,6 +31,7 @@ import yolo from './yolo.svg'
 import python from './python.svg'
 import arduino from './arduino.svg'
 import pytorch from './pytorch.svg'
+import tensorflow from './tensorflow.svg'
 
 export {
     css,
@@ -65,5 +66,6 @@ export {
     yolo,
     python,
     arduino,
-    pytorch
+    pytorch,
+    tensorflow,
 }

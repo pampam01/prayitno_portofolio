@@ -1,5 +1,23 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
+  asahPdf,
+  robot1Pdf,
+  robot2Pdf,
+  dicoding123,
+  dicoding184,
+  dicoding185,
+  dicoding237,
+  dicoding256,
+  dicoding302,
+  dicoding315,
+  dicoding317,
+  dicoding51,
+  dicoding653,
+  dicoding713,
+  dicoding80,
+  dicoding86,
+} from "../assets/certificates";
+import {
   car,
   contact,
   css,
@@ -28,7 +46,8 @@ import {
   yolo,
   python,
   arduino,
-  pytorch
+  pytorch,
+  tensorflow, 
 } from "../assets/icons";
 
 export const skills = [
@@ -131,6 +150,11 @@ export const skills = [
     imageUrl: arduino,
     name: "Arduino",
     type: "AI",
+  },
+  {
+    imageUrl:tensorflow,
+    name:"Tensorflow",
+    type:"AI"
   },
   {
     imageUrl: pytorch,
@@ -257,5 +281,120 @@ export const projects = [
     description:
       "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
     link: "https://github.com/adrianhajdin/project_ai_summarizer",
+  },
+];
+
+export const certificates = [
+  {
+    theme: "btn-back-black",
+    name: "Certificate of Appreciation Asah",
+    issuer: "Asah / Organization",
+    date: "2024",
+    fileUrl: asahPdf,
+  },
+  {
+    theme: "btn-back-red",
+    name: "Robot 1 Achievement",
+    issuer: "Competition",
+    date: "2024",
+    fileUrl: robot1Pdf,
+  },
+  {
+    theme: "btn-back-blue",
+    name: "Robot 2 Achievement",
+    issuer: "Competition",
+    date: "2024",
+    fileUrl: robot2Pdf,
+  },
+  {
+    theme: "btn-back-green",
+    name: "Dicoding Course 123",
+    issuer: "Dicoding Indonesia",
+    date: "24-04-2024",
+    fileUrl: dicoding123,
+  },
+  {
+    theme: "btn-back-yellow",
+    name: "Dicoding Course 184",
+    issuer: "Dicoding Indonesia",
+    date: "26-09-2025",
+    fileUrl: dicoding184,
+  },
+  {
+    theme: "btn-back-pink",
+    name: "Dicoding Course 185",
+    issuer: "Dicoding Indonesia",
+    date: "12-10-2025",
+    fileUrl: dicoding185,
+  },
+  {
+    theme: "btn-back-red",
+    name: "Dicoding Course 237",
+    issuer: "Dicoding Indonesia",
+    date: "17-08-2025",
+    fileUrl: dicoding237,
+  },
+  {
+    theme: "btn-back-black",
+    name: "Dicoding Course 256",
+    issuer: "Dicoding Indonesia",
+    date: "04-05-2024",
+    fileUrl: dicoding256,
+  },
+  {
+    theme: "btn-back-blue",
+    name: "Dicoding Course 302",
+    issuer: "Dicoding Indonesia",
+    date: "17-08-2025",
+    fileUrl: dicoding302,
+  },
+  {
+    theme: "btn-back-green",
+    name: "Dicoding Course 315",
+    issuer: "Dicoding Indonesia",
+    date: "07-05-2024",
+    fileUrl: dicoding315,
+  },
+  {
+    theme: "btn-back-yellow",
+    name: "Dicoding Course 317",
+    issuer: "Dicoding Indonesia",
+    date: "17-08-2025",
+    fileUrl: dicoding317,
+  },
+  {
+    theme: "btn-back-pink",
+    name: "Dicoding Course 51",
+    issuer: "Dicoding Indonesia",
+    date: "10-11-2025",
+    fileUrl: dicoding51,
+  },
+  {
+    theme: "btn-back-red",
+    name: "Dicoding Course 653",
+    issuer: "Dicoding Indonesia",
+    date: "28-08-2025",
+    fileUrl: dicoding653,
+  },
+  {
+    theme: "btn-back-black",
+    name: "Dicoding Course 713",
+    issuer: "Dicoding Indonesia",
+    date: "20-10-2025",
+    fileUrl: dicoding713,
+  },
+  {
+    theme: "btn-back-blue",
+    name: "Dicoding Course 80",
+    issuer: "Dicoding Indonesia",
+    date: "10-11-2025",
+    fileUrl: dicoding80,
+  },
+  {
+    theme: "btn-back-green",
+    name: "Dicoding Course 86",
+    issuer: "Dicoding Indonesia",
+    date: "09-09-2025",
+    fileUrl: dicoding86,
   },
 ];

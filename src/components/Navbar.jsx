@@ -28,6 +28,14 @@ const Navbar = () => {
         >
           Projects
         </NavLink>
+        <NavLink
+          to="/certificates"
+          className={({ isActive }) =>
+            isActive ? "text-blue-500" : "text-black"
+          }
+        >
+          Certificates
+        </NavLink>
       </nav>
     </header>
   );

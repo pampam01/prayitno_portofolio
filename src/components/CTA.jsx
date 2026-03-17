@@ -5,9 +5,9 @@ const CTA = () => {
   return (
     <section className="cta">
       <p className="cta-text">
-        Punya Projek yang ingin diselesaikan ?{" "}
+        Have a project you want to create?{" "}
         <br className="sm:block hidden" />
-        Mari buat Bersama !
+        Let's create it together!
       </p>
       <Link to={"/contact"} className="btn">
         Contact

@@ -17,28 +17,28 @@ const InfoBox = ({ text, link, btnText }) => {
 const renderContent = {
   1: (
     <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
-      Hallo, saya <span className="font-semibold">Prayitno</span>
+      Hallo, I'm <span className="font-semibold">Prayitno</span>
       <br />
-      Seorang Javascript Programmer
+      A FullStack Developer
     </h1>
   ),
   2: (
     <InfoBox
-      text="saya mahasiswa smester 3 di universitas dinamika bangsa"
+      text="I'm a student at Dinamika Bangsa University, majoring in Informatics"
       link="/about"
       btnText="Learn More"
     />
   ),
   3: (
     <InfoBox
-      text="lihat beberapa projek yang pernah saya buat"
+      text="Let's check out some of the projects I've worked on."
       link="/projects"
       btnText="visit my portofolio"
     />
   ),
   4: (
     <InfoBox
-      text="ingin membuat projek bersama saya, atau ada sebuah projek yang ingin anda buat?"
+      text="Want to create a project with me, or have a project you want to create?"
       link="/contact"
       btnText="Contact Me"
     />

@@ -3,7 +3,7 @@ import reactDOM from "react-dom/client";
 import "./index.css";
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { About, Contact, Home, Projects } from "./pages";
+import { About, Contact, Home, Projects, Certificates } from "./pages";
 import ErrorPage from "./pages/ErrorPage";
 import Navbar from "./components/Navbar";
 
@@ -28,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
+  },
+  {
+    path: "/certificates",
+    element: <Certificates />,
   },
 ]);
 
