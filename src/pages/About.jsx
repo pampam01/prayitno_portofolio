@@ -25,7 +25,7 @@ const About = () => {
         <div className="py-10 flex flex-col">
           <h3 className="subhead-text">My Skils</h3>
 
-          <div className="mt-16 flex flex-wrap gap-12">
+          <div className="mt-16 flex flex-wrap gap-8">
             {skills.map((skill) => (
               <div key={skill.name} className="block-container w-20 h-20">
                 <div className="btn-back rounded-xl" />
@@ -57,7 +57,7 @@ const About = () => {
                   key={experience.title}
                   date={experience.date}
                   icon={
-                    <div className="flex justify-center items-center w-full h-full">
+                    <div className="flex justify-center items-center w-full h-full ">
                       <img
                         src={experience.icon}
                         alt={experience.company_name}

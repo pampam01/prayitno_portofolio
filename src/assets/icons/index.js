@@ -26,6 +26,11 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import laravel from './laravel.svg'
+import yolo from './yolo.svg'
+import python from './python.svg'
+import arduino from './arduino.svg'
+import pytorch from './pytorch.svg'
 
 export {
     css,
@@ -55,5 +60,10 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    laravel,
+    yolo,
+    python,
+    arduino,
+    pytorch
 }

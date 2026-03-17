@@ -24,6 +24,11 @@ import {
   tailwindcss,
   threads,
   typescript,
+  laravel,
+  yolo,
+  python,
+  arduino,
+  pytorch
 } from "../assets/icons";
 
 export const skills = [
@@ -107,6 +112,31 @@ export const skills = [
     name: "TypeScript",
     type: "Frontend",
   },
+  {
+    imageUrl: laravel,
+    name: "Laravel",
+    type: "Backend",
+  },
+  {
+    imageUrl: yolo,
+    name: "YOLO",
+    type: "AI",
+  },
+  {
+    imageUrl: python,
+    name: "Python",
+    type: "AI",
+  },
+  {
+    imageUrl: arduino,
+    name: "Arduino",
+    type: "AI",
+  },
+  {
+    imageUrl: pytorch,
+    name: "PyTorch",
+    type: "AI",
+  }
 ];
 
 export const experiences = [
