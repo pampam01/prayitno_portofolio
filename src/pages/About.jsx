@@ -14,13 +14,13 @@ const About = () => {
       <Navbar />
       <section className="max-container">
         <h1 className="head-text">
-          Halo Saya{" "}
+          Halo I'm{" "}
           <span className="blue-gradient_text font-semibold drop-shadow">
             Prayitno
           </span>
         </h1>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
-          <p>software enginer from Indonesia, spesialis di web development.</p>
+          <p> FullStack Developer From Indonesia.</p>
         </div>
         <div className="py-10 flex flex-col">
           <h3 className="subhead-text">My Skils</h3>
@@ -45,9 +45,7 @@ const About = () => {
           <h3 className="subhead-text">Work Experience</h3>
           <div className="mt-5 flex flex-col gap-3 text-slate-500 ">
             <p>
-              saya sudah banyak sekali membuat proyek dan melaksanakan beberapa
-              pekerjaan penting bersama client. terutama dalam bidang web
-              development dan blockchain development.
+              I have made many projects and carried out several important tasks with clients. here are some of my experiences
             </p>
           </div>
           <div className="mt-12 flex">
