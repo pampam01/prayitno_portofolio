@@ -7,6 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import CTA from "../components/CTA";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -103,6 +104,7 @@ const About = () => {
         <hr className="border-slate-200" />
         <CTA />
       </section>
+      <Footer />
     </>
   );
 };

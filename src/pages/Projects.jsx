@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { arrow } from "../assets/icons";
 import CTA from "../components/CTA";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Projects = () => {
   return (
@@ -70,6 +71,7 @@ const Projects = () => {
 
         <CTA />
       </section>
+      <Footer />
     </>
   );
 };

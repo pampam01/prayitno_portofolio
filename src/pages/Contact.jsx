@@ -6,6 +6,7 @@ import Loader from "../components/Loader";
 import useAlert from "../hooks/useAlert";
 import Alert from "../components/Alert";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -155,6 +156,9 @@ const Contact = () => {
           </Canvas>
         </div>
       </section>
+      <div className="max-container pt-0 pb-0">
+        <Footer />
+      </div>
     </>
   );
 };

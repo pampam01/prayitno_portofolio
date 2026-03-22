@@ -165,52 +165,63 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Store Cashier, Convenience Store",
+    company_name: "Convenience Store",
     icon: starbucks,
     iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    date: "Feb 2020 - Nov 2021",
     points: [
-      "developer dan maintain aplikasi berbasis reactjs. baik di aplikasi web, maupun di native di android dan IOS",
+      "Handled customer transactions accurately and efficiently while providing friendly customer service.",
+      "Managed cash payments, maintained accurate daily sales records, and balanced the cash register at the end of each shift.",
+      "Assisted in organizing merchandise and ensuring the store remained clean and well-stocked.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Sorter, Shopee Warehouse",
+    company_name: "Shopee Warehouse",
     icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: "#fbc3bc",
+    date: "Dec 2021 - Mar 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Sorted incoming and outgoing goods based on shipment categories and delivery destinations.",
+      "Ensured order accuracy and supported warehouse operations to maintain efficient logistics processes.",
+      "Worked effectively in a fast-paced environment while following operational procedures and safety standards.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Teaching Assistant",
+    company_name: "University",
     icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
+    iconBg: "#b7e4c7",
+    date: "Agus 2022 - Dec 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisted lecturers with teaching materials, assignments, and various academic tasks.",
+      "Supported classroom activities and completed administrative and academic duties assigned by lecturers.",
+      "Helped students understand course materials and provided assistance when needed.",
+    ],
+  },
+  {
+    title: "Freelance Developer",
+    company_name: "Freelance",
+    icon: react,
+    iconBg: "#a2d2ff",
+    date: "Mei 2022 - Present",
+    points: [
+      "Developed web, Android, and machine learning projects based on client requirements.",
+      "Communicated with clients to understand project needs and deliver suitable technical solutions.",
+      "Managed multiple freelance projects independently while maintaining quality and meeting deadlines.",
+    ],
+  },
+  {
+    title: "Laboratory Assistant",
+    company_name: "University",
+    icon: python,
+    iconBg: "#e6e6fa",
+    date: "Jan 2024 - Present",
+    points: [
+      "Assisted in managing laboratory activities and supporting students during practical sessions.",
+      "Prepared laboratory equipment, materials, and technical guidance for experiments and academic activities.",
+      "Maintained the readiness, cleanliness, and organization of laboratory facilities and tools.",
     ],
   },
 ];
@@ -224,63 +235,47 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/pampam01",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/prayitno-b29842398/",
   },
 ];
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
-    description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
-  },
-  {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
-  },
-  {
-    iconUrl: car,
+    iconUrl: starbucks,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Catfish Farming Automation",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "Created an IoT-based monitoring and control system for catfish farming. Utilized sensors to monitor water quality (pH, temperature) and water levels. Implemented an automatic control system for water pumps, including a manual override during sensor disruptions. Developed a mobile application to monitor and control the ponds remotely.",
+    link: "https://github.com/Prayitno",
   },
   {
-    iconUrl: snapgram,
+    iconUrl: tesla,
+    theme: "btn-back-red",
+    name: "AI Palm Oil Fruit Quality Detection",
+    description:
+      "Developed a machine learning model using an image dataset to evaluate and classify the quality of palm oil fruits. Integrated the machine learning model into an interactive web application, allowing users to easily determine fruit quality.",
+    link: "https://github.com/Prayitno",
+  },
+  {
+    iconUrl: shopify,
+    theme: "btn-back-green",
+    name: "Bathin Village Religious Court Website",
+    description:
+      "Built a website for the Bathin Village Religious Court using Laravel and related technologies. Implemented a responsive design to ensure seamless cross-browser compatibility and collaborated with other developers to deliver a high-quality product.",
+    link: "https://github.com/Prayitno",
+  },
+  {
+    iconUrl: meta,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Notion Clone",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "Created a web application inspired by Notion using React.js and modern web technologies. Focuses on a responsive design, cross-browser compatibility, and an intuitive user interface for seamless note-taking and productivity.",
+    link: "https://github.com/Prayitno",
   },
 ];
 

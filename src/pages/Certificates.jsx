@@ -3,6 +3,7 @@ import { certificates } from "../constants";
 import { arrow } from "../assets/icons";
 import CTA from "../components/CTA";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Certificates = () => {
   return (
@@ -62,6 +63,7 @@ const Certificates = () => {
 
         <CTA />
       </section>
+      <Footer />
     </>
   );
 };
